@@ -1,11 +1,18 @@
 <script setup>
+<<<<<<< Updated upstream
 </script>
 
 <template>
 
+=======
+import { RouterView } from 'vue-router';
+
+</script>
+
+<template>
+>>>>>>> Stashed changes
   <RouterView />
 </template>
-
 <style scoped>
 header {
   line-height: 1.5;
