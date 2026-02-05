@@ -4,13 +4,24 @@
 
 <template>
 
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> e67a3ab46cdf8f70234e0211972c685d2ad0abe9
 import { RouterView } from 'vue-router';
 
 </script>
 
 <template>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+  <!-- <h1 class="text-3xl font-bold underline bg-blue-500">You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+>>>>>>> e67a3ab46cdf8f70234e0211972c685d2ad0abe9
   <RouterView />
 </template>
 <style scoped>

@@ -22,8 +22,14 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+>>>>>>> e67a3ab46cdf8f70234e0211972c685d2ad0abe9
     "prettier": "3.8.1",
+    "tailwindcss": "^3.4.19",
     "vite": "^7.3.1",
 =======
     "prettier": "3.7.4",
