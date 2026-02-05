@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-@import "tailwindcss";
-=======
-@import "tailwindcss";
->>>>>>> Stashed changes
-=======
 
 @import "tailwindcss";
-@import './base.css';
-
 /* #app {
   max-width: 1280px;
   margin: 0 auto;

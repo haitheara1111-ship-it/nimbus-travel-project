@@ -7,6 +7,7 @@ const router = createRouter({
     {
       path: '/day',
       name: 'day',
+      component: DayView,
     },
   ],
 })
