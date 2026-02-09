@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router';
-
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -9,7 +10,10 @@ import { RouterView } from 'vue-router';
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
   </p> -->
+   <Header />
+   <HomeView />
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped></style>
