@@ -1,6 +1,6 @@
 <script setup>
 import DayWeather from '@/components/DayWeather.vue'; 
-// import Header from '@/components/Header.vue';
+import Header from '@/components/Header.vue';
 import { ref } from 'vue';
 
 
@@ -40,8 +40,8 @@ const tabs = [
 const activeTab = ref('Today')
 </script> 
 <template>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <div class="xl:ml-[170px] lg:ml-[100px] mt-[20px] mr-[100px] block lg:mr-[100px] md:mr-[50px] md:ml-[50px]" id="day">
+    <Header />
+    <div class="xl:ml-[170px] ml-[100px] lg:ml-[100px] mt-[20px] mr-[100px] block lg:mr-[100px] md:mr-[50px] md:ml-[50px]" id="day">
       <div class="flex">
         <h1 class="text-[32px] font-semibold">
           {{ activeProvine}} {{ activeTab }} Weather
